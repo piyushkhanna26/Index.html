@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+</head>
+<body>
+    <h1>Admmision form </h1>
+    <hr>
+    <hr>
+    <form action="table.html">
+        <label for="fname"> Name </label> <br>
+        <input type="text"> <br>
+
+        <label for="fname">Last name</label> <br>
+        <input type="text"> <br>
+        <br>
+
+        <input type="submit" value="submit">
+        <hr>
+
+        <!-- this is a radio button -->
+
+        <h3>Choose the Gender</h3>
+        
+    <form>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+    </form> 
+
+        <br>
+        <input type="submit" value="submit">
+
+
+
+
+<!--  this is a checkbox -->
+        <h3> <b> Skills </b></h3>
+        
+        <input type="checkbox"  id="language " name="HTML" value="HTML">
+        <label for="HTML"> HTML</label> <br>
+
+        <input type="checkbox">
+        <label for="CSS3"> CSS3 </label> <br>
+
+        <input type="checkbox">
+        <label for="JS"> JS</label> <br>
+
+        <input type="checkbox">
+        <label for="BOOTSTRAP"> BOOTSTRAP</label> <br>
+
+        <input type="checkbox">
+        <label for="JQUERY"> JQUERY</label> <br>
+
+
+        <input type="checkbox">
+        <label for="REACT"> REACT</label> <br>
+        <br>
+        <input type="submit" value = "submit">
+        <br><br>
+        <hr>
+               
+
+<!-- SELECT -->
+<hr>
+
+<h2>choose the one language</h2>
+ 
+<P> define a drop-down list</P>
+<form action="">
+
+<label for="language">choose one language</label>
+<select name="language" id="language">
+
+<option value="PYthon">Python</option>
+<option value="Java " selected> java</option>
+<option value="Ruby">Ruby</option>
+
+</select> 
+<br><br>
+
+<input type="submit" value="submit">
+<br><br>
+<hr>
+
+
+
+<!-- allow multiple section  -->
+<h2>institute name </h2>
+<hr> <hr>
+<br>
+
+<form action="">
+
+<label for="insttitute "> insttitute</label>
+<select name="institute " id="institute " size="2" multiple>
+ <!-- with the help of multiple we have select multiple option in drop down list -->
+
+
+<option value="BIT">BIT</option>
+<option value="MIET">MIET</option>
+<option value="KIET">KIET</option>
+<option value="JST">JST</option>
+</select>
+<br><br>
+<input type="submit" value="submit">
+
+
+<hr><hr>
+<!-- text area  -->
+
+
+
+<h3>decribe in 100 words  </h3>
+<hr><hr>
+
+<form action="">
+<textarea name="message" id="" cols="30" rows="10"></textarea>
+<br><br>
+<input type="submit" value="submit">
+<hr>
+
+</form>
+
+<!-- Fieldset and legend -->
+<form action="/action_page.php">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">Father name:</label><br>
+      <input type="text" id="fname" name="fname" value="sanjay"><br>
+      <label for="lname">mother name:</label><br>
+      <input type="text" id="lname" name="lname" value="monika "><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+  <hr><hr>
+<!-- data list -->
+<h3>Browser details</h3>
+<form action="/action_page.php">
+    <label for="browser"> choose a browser</label>
+    <input list="browsers">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+  </form>
+
+<hr>
+<br><br>
+  <!-- output -->
+<h2>marks in 10th</h2>
+  <form action="/action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
